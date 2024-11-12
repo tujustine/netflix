@@ -47,10 +47,12 @@ h2 {
   overflow: scroll;
   scrollbar-width: none;
   margin-right: -40px;
+  gap: 10px;
 
   img {
-    width: 300px;
+    width: 350px;
     height: 200px;
+    border-radius: 10px;
   }
 }
 
