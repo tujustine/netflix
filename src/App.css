@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+}
+
+#root {
+  margin: 0 40px;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.header {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.logo {
+  width: 130px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.section-cat {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.movies-img {
+  display: flex;
+  overflow: scroll;
+  scrollbar-width: none;
+  margin-right: -40px;
+
+  img {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+.footer {
+  padding: 15px 0;
+  margin-top: 50px;
+  /* border: solid #f1eded; */
+}
